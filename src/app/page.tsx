@@ -13,12 +13,10 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Pharma Devs Benefits"
+        title="Translate your clinical knowledge into tech impact with us."
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Join our community of healthcare professionals transforming their expertise into innovative solutions.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
