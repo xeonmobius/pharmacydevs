@@ -36,21 +36,23 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Is this community just for developers, or can I join if I'm learning?",
+    answer: "Anyone serious about the transition is welcome. We have members in various roles: Software Engineers, Product Managers, Data Analysts, and those still in pharmacy and exploring the switch. Our primary focus is on bridging clinical knowledge and tech skills.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "I'm worried my pharmacy background won't be valued in tech. Will it?",
+    answer: "Absolutely. Your clinical expertise is our community's core differentiator. Tech companies need experts who understand medication safety, patient workflows, and regulatory constraints. We focus on teaching you how to translate that unique domain knowledge into technical value.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "What roles do most former pharmacists transition into?",
+    answer: "The most common paths are Product Manager (leveraging clinical workflow expertise), Software Engineer (building digital health tools), and Data Analyst (interpreting patient and prescription data). We help you explore and prepare for all of them.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "How much does it cost to join?",
+    answer: "(Insert your price here, or say it's free.)",
+  },
+  {
+    question: "Are all events held in Toronto, or are there virtual options?",
+    answer: "While our roots are in Toronto, our community is global. We host a mix of virtual events, online workshops, and in-person meetups to ensure everyone can participate regardless of location.",
   },
 ];
