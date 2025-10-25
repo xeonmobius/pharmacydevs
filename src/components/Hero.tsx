@@ -53,14 +53,11 @@ export const Hero = () => {
             <div className="text-gray-400 dark:text-gray-400">
               <CanadaHealthInfowayLogo />
             </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              <MicrosoftLogo />
-            </div>
             <div className="pt-1 text-gray-400 dark:text-gray-400">
-              <NetflixLogo />
+              <LoblawsLogo />
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <SonyLogo />
+              <MedessitLogo />
             </div>
           </div>
         </div>
@@ -182,5 +179,41 @@ function VerizonLogo() {
         </g>
       </g>
     </svg>
+  );
+}
+
+function LoblawsLogo() {
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="150" height="30" viewBox="0 0 150 30">
+        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontSize="16" fontWeight="bold" fill="currentColor">
+          Loblaws
+        </text>
+      </svg>
+    </div>
+  );
+}
+
+function MedessitLogo() {
+  return (
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="150" height="30" viewBox="0 0 150 30">
+        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontSize="16" fontWeight="bold" fill="currentColor">
+          Medessit
+        </text>
+      </svg>
+    </div>
   );
 }
