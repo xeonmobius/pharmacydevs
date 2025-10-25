@@ -12,7 +12,7 @@ export const Hero = () => {
               Toronto&apos;s top community for Pharmacists building health-tech.
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Join a community of 2000+ pharmacists and clinicians transitioning
+              Join a community of pharmacists and clinicians transitioning
               to tech roles, focused on applying real-world knowledge,
               accelerating growth, and building better digital health solutions.
             </p>
