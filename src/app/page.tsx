@@ -35,11 +35,9 @@ export default function Home() {
       </div>
 
       <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        preTitle="Hear from Members Who Made the Leap"
+        title="See the Results: What Clinical Tech Builders Are Saying"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
       </SectionTitle>
 
       <Testimonials />
