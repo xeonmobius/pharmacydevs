@@ -22,7 +22,7 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/android-chrome-512x512.png"
                   width="32"
                   alt="PD"
                   height="32"
