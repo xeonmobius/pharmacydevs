@@ -34,13 +34,15 @@ export default function Home() {
         <Video videoId="fZ0D0cnR88E" />
       </div>
 
-      <SectionTitle
-        preTitle="Hear from Members Who Made the Leap"
-        title="See the Results: What Clinical Tech Builders Are Saying"
-      >
-      </SectionTitle>
+      <div style={{ display: 'none' }}>
+        <SectionTitle
+          preTitle="Hear from Members Who Made the Leap"
+          title="See the Results: What Clinical Tech Builders Are Saying"
+        >
+        </SectionTitle>
 
-      <Testimonials />
+        <Testimonials />
+      </div>
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
       </SectionTitle>
