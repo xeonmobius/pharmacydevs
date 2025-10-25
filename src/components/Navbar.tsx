@@ -24,7 +24,7 @@ export const Navbar = () => {
                 <Image
                   src="/img/logo.svg"
                   width="32"
-                  alt="P"
+                  alt="PD"
                   height="32"
                   className="w-8"
                 />

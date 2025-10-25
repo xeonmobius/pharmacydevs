@@ -19,7 +19,7 @@ export function Footer() {
               >
                 <Image
                   src="/img/logo.svg"
-                  alt="N"
+                  alt="PD"
                   width="32"
                   height="32"
                   className="w-8"
