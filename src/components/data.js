@@ -11,50 +11,49 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Why join us",
+  desc: "Toronto's largest community of Pharmacists building the future of health-tech.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Translate Clinical Expertise to Code",
+      desc: "Leverage your deep knowledge of patient care and medication pathways to build safer, more effective health-tech products.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Accelerate Your Career Pivot",
+      desc: "Access career advice, transition roadmaps, and peer support to rapidly secure your first or next role in tech, product, or engineering.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Build Your Health-Tech Network",
+      desc: "Connect with accomplished pharmacist-turned-developers and industry leaders to find mentors and collaborators for life.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+  title: "Go Beyond the Basics: Clinical Impact Meets Code",
+  desc: "Leverage the power of our community to bridge the gap between healthcare expertise and high-impact technology careers.",
+  image: benefitTwoImg, // Keep your existing image variable
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Navigate the Tech Landscape",
+      desc: "Get clear, honest insights into different tech roles (PM, Dev, Data, Analyst) from peers who successfully made the career transition.",
+      icon: <DevicePhoneMobileIcon />, // Keep your existing icon
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Solve Unique Health-Tech Challenges",
+      desc: "Join focused discussions to troubleshoot real-world problems and validate product ideas unique to integrating pharmacy workflows.",
+      icon: <AdjustmentsHorizontalIcon />, // Keep your existing icon
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Elevate Your Professional Brand",
+      desc: "Gain visibility by speaking at community events or contributing to our content, establishing yourself as a recognized expert in health-tech.",
+      icon: <SunIcon />, // Keep your existing icon
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
