@@ -8,7 +8,7 @@ export default function ComingSoon({ title = "Coming Soon!" }) {
         preTitle={title}
         title={`More ${title.toLowerCase()} coming your way`}
       >
-        We're working hard to bring you this content. Please check back later!
+        We&apos;re working hard to bring you this content. Please check back later!
       </SectionTitle>
       
       <div className="flex flex-col items-center justify-center py-12">
